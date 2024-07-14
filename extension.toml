@@ -1,0 +1,17 @@
+id = "nim"
+name = "Nim"
+version = "0.0.4"
+schema_version = 0
+description = "Provides Nim syntax highlighting in Zed (and language support is comming later)"
+authors = ["zai1208 <zai1208@outlook.com>"]
+repository = "https://github.com/zai1208/nim"
+themes = []
+languages = ["languages/nim"]
+
+[lib]
+
+[grammars.nim]
+repository = "https://github.com/alaviss/tree-sitter-nim/tree/main"
+commit = "bb2f809b65c5c943d16c45dd17e631bf3d5d4f07"
+
+[language_servers]
